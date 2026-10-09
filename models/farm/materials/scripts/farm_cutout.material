@@ -1,0 +1,169 @@
+vertex_program Farm/CutoutVS glsl
+{
+ source farm_cutout.vert
+}
+fragment_program Farm/CutoutFS glsl
+{
+ source farm_cutout.frag
+ default_params
+ {
+  param_named leafTexture int 0
+  param_named removeWhiteBackground float 0
+ }
+}
+material Farm/Cutout_043
+{
+ technique
+ {
+  pass
+  {
+   ambient 0.7 0.7 0.7
+   diffuse 1 1 1 1
+   specular 0 0 0 1
+   cull_hardware none
+   cull_software none
+   depth_write on
+   vertex_program_ref Farm/CutoutVS { }
+   fragment_program_ref Farm/CutoutFS
+   {
+    param_named removeWhiteBackground float 0
+   }
+   texture_unit
+   {
+    texture branch_diffuse.png
+    filtering trilinear
+    tex_address_mode wrap
+   }
+  }
+ }
+}
+material Farm/Cutout_045
+{
+ technique
+ {
+  pass
+  {
+   ambient 0.7 0.7 0.7
+   diffuse 1 1 1 1
+   specular 0 0 0 1
+   cull_hardware none
+   cull_software none
+   depth_write on
+   vertex_program_ref Farm/CutoutVS { }
+   fragment_program_ref Farm/CutoutFS
+   {
+    param_named removeWhiteBackground float 1
+   }
+   texture_unit
+   {
+    texture vine.jpg
+    filtering trilinear
+    tex_address_mode wrap
+   }
+  }
+ }
+}
+material Farm/Cutout_046
+{
+ technique
+ {
+  pass
+  {
+   ambient 0.7 0.7 0.7
+   diffuse 1 1 1 1
+   specular 0 0 0 1
+   cull_hardware none
+   cull_software none
+   depth_write on
+   vertex_program_ref Farm/CutoutVS { }
+   fragment_program_ref Farm/CutoutFS
+   {
+    param_named removeWhiteBackground float 1
+   }
+   texture_unit
+   {
+    texture maize_leaf.jpg
+    filtering trilinear
+    tex_address_mode wrap
+   }
+  }
+ }
+}
+material Farm/Cutout_049
+{
+ technique
+ {
+  pass
+  {
+   ambient 0.7 0.7 0.7
+   diffuse 1 1 1 1
+   specular 0 0 0 1
+   cull_hardware none
+   cull_software none
+   depth_write on
+   vertex_program_ref Farm/CutoutVS { }
+   fragment_program_ref Farm/CutoutFS
+   {
+    param_named removeWhiteBackground float 1
+   }
+   texture_unit
+   {
+    texture bean_leaf.jpg
+    filtering trilinear
+    tex_address_mode wrap
+   }
+  }
+ }
+}
+material Farm/Cutout_053
+{
+ technique
+ {
+  pass
+  {
+   ambient 0.7 0.7 0.7
+   diffuse 1 1 1 1
+   specular 0 0 0 1
+   cull_hardware none
+   cull_software none
+   depth_write on
+   vertex_program_ref Farm/CutoutVS { }
+   fragment_program_ref Farm/CutoutFS
+   {
+    param_named removeWhiteBackground float 1
+   }
+   texture_unit
+   {
+    texture portulaca.jpg
+    filtering trilinear
+    tex_address_mode wrap
+   }
+  }
+ }
+}
+material Farm/Cutout_054
+{
+ technique
+ {
+  pass
+  {
+   ambient 0.7 0.7 0.7
+   diffuse 1 1 1 1
+   specular 0 0 0 1
+   cull_hardware none
+   cull_software none
+   depth_write on
+   vertex_program_ref Farm/CutoutVS { }
+   fragment_program_ref Farm/CutoutFS
+   {
+    param_named removeWhiteBackground float 1
+   }
+   texture_unit
+   {
+    texture taraxacum.jpg
+    filtering trilinear
+    tex_address_mode wrap
+   }
+  }
+ }
+}

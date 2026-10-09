@@ -1,0 +1,14 @@
+/build/
+/install/
+/log/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.blend
+*.blend[0-9]*
+*.tar.gz
+*.tar.xz
+*.zip
+.DS_Store
+.idea/
+.vscode/

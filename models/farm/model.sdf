@@ -1,0 +1,2690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <model name="farm">
+    <static>true</static>
+    <link name="terrain_0">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_1">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_2">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_3">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_4">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_5">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-05_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_6">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_7">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_8">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_9">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_10">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_11">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_12">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-04_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_13">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_14">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_15">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_16">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_17">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_18">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_19">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-03_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_20">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_21">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_22">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_23">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_24">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_25">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_26">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_27">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+05.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-02_+05.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_28">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_29">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_30">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_31">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_32">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_33">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_34">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_35">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+05.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_-01_+05.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_36">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_37">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_38">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_39">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_40">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_41">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_42">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_43">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+05.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+00_+05.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_44">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_-03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_-03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_45">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_46">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_47">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_48">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_49">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_50">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_51">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+01_+04.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_52">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_53">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_54">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_55">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_56">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_57">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+02_+03.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_58">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_-02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_59">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_60">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_61">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_62">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+03_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_63">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_-01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_64">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_+00.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_65">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_+01.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="terrain_66">
+      <collision name="surface">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="ground">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/terrain_+04_+02.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+    <link name="farm_assets">
+      <collision name="obstacles">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/farm_obstacles.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="material_000">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_000.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_001">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_001.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_002">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_002.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_003">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_003.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_004">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_004.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_005">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_005.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_006">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_006.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_007">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_007.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_008">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_008.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_009">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_009.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_010">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_010.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_011">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_011.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_012">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_012.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_013">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_013.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_014">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_014.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_015">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_015.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_016">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_016.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_017">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_017.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_018">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_018.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_019">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_019.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_020">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_020.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_021">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_021.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_022">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_022.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_023">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_023.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_024">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_024.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_025">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_025.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_026">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_026.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_027">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_027.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_028">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_028.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_029">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_029.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_030">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_030.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_031">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_031.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_032">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_032.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_033">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_033.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_034">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_034.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_035">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_035.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_036">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_036.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_037">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_037.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_038">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_038.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_039">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_039.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_040">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_040.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_041">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_041.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_042">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_042.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_043">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_043.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+        <material>
+          <script>
+            <uri>model://farm/materials/programs</uri>
+            <uri>model://farm/meshes</uri>
+            <uri>model://farm/materials/scripts</uri>
+            <name>Farm/Cutout_043</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="material_044">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_044.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_045">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_045.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+        <material>
+          <script>
+            <uri>model://farm/materials/programs</uri>
+            <uri>model://farm/meshes</uri>
+            <uri>model://farm/materials/scripts</uri>
+            <name>Farm/Cutout_045</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="material_046">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_046.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+        <material>
+          <script>
+            <uri>model://farm/materials/programs</uri>
+            <uri>model://farm/meshes</uri>
+            <uri>model://farm/materials/scripts</uri>
+            <name>Farm/Cutout_046</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="material_047">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_047.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_048">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_048.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_049">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_049.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+        <material>
+          <script>
+            <uri>model://farm/materials/programs</uri>
+            <uri>model://farm/meshes</uri>
+            <uri>model://farm/materials/scripts</uri>
+            <name>Farm/Cutout_049</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="material_050">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_050.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_051">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_051.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_052">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_052.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_053">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_053.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+        <material>
+          <script>
+            <uri>model://farm/materials/programs</uri>
+            <uri>model://farm/meshes</uri>
+            <uri>model://farm/materials/scripts</uri>
+            <name>Farm/Cutout_053</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="material_054">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_054.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+        <material>
+          <script>
+            <uri>model://farm/materials/programs</uri>
+            <uri>model://farm/meshes</uri>
+            <uri>model://farm/materials/scripts</uri>
+            <name>Farm/Cutout_054</name>
+          </script>
+        </material>
+      </visual>
+      <visual name="material_055">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_055.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_056">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_056.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_057">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_057.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_058">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_058.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_059">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_059.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_060">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_060.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_061">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_061.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_062">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_062.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_063">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_063.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_064">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_064.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_065">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_065.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_066">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_066.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_067">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_067.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_068">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_068.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_069">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_069.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_070">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_070.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_071">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_071.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_072">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_072.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_073">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_073.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_074">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_074.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_075">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_075.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_076">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_076.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_077">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_077.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_078">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_078.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_079">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_079.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_080">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_080.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_081">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_081.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_082">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_082.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_083">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_083.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_084">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_084.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_085">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_085.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_086">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_086.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_087">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_087.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_088">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_088.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_089">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_089.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_090">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_090.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_091">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_091.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_092">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_092.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_093">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_093.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_094">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_094.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_095">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_095.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_096">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_096.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_097">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_097.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_098">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_098.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_099">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_099.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_100">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_100.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_101">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_101.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_102">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_102.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_103">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_103.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_104">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_104.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_105">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_105.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_106">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_106.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_107">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_107.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_108">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_108.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_109">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_109.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_110">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_110.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_111">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_111.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_112">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_112.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_113">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_113.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_114">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_114.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_115">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_115.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_116">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_116.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="material_117">
+        <geometry>
+          <mesh>
+            <uri>model://farm/meshes/by_material/visual_117.obj</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+  </model>
+</sdf>
