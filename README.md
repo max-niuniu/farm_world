@@ -4,6 +4,8 @@ English | [简体中文](README.zh-CN.md)
 
 A farm environment for mobile robot simulation, featuring fields, roads, buildings, vegetation, and an obstacle course.
 
+If you find this project useful, a star would be appreciated.
+
 https://github.com/user-attachments/assets/1bd8ca30-7f76-465e-9e34-2b9442a16091
 
 ## Requirements
