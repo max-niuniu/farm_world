@@ -4,7 +4,7 @@
 
 用于移动机器人仿真的农场环境，包含农田、道路、建筑、植被及障碍物场地。
 
-<video src="https://raw.githubusercontent.com/max-niuniu/farm_world/main/docs/media/farm_world.mp4" controls width="960"></video>
+https://github.com/user-attachments/assets/1bd8ca30-7f76-465e-9e34-2b9442a16091
 
 ## 环境要求
 
