@@ -108,3 +108,5 @@ sources and licensing status.
 ## Maintainer
 
 Tianwei Niu — <tianwei.niu@cau.edu.cn>
+
+Under the guidance of [Man Zhang](mailto:cauzm@cau.edu.cn) and [Han Li](mailto:cau_lihan@cau.edu.cn).

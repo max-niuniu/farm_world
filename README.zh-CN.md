@@ -105,3 +105,5 @@ def generate_launch_description():
 ## 维护者
 
 Tianwei Niu — <tianwei.niu@cau.edu.cn>
+
+指导：[张漫](mailto:cauzm@cau.edu.cn)、[李寒](mailto:cau_lihan@cau.edu.cn)。
